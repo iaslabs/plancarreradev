@@ -1,0 +1,395 @@
+[
+    {
+        "id":1,
+        "nombre":"junior java",
+        "active":true,
+        "nivel":"Junior",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Java Bajo",
+                "capacidades": [  
+                    {"id":1,"checked":true,"nombre":"Habilidad de enternder que es una Clase","cursos":"3"},
+                    {"id":2,"checked":false,"nombre":"Habilidad de enternder que es un objeto","cursos":"3"},
+                    {"id":3,"checked":false,"nombre":"Habilidad de enternder que es una variable","cursos":"3"},
+                    {"id":4,"checked":false,"nombre":"Habilidad de enternder que es un parametro","cursos":"3"},
+                    {"id":5,"checked":false,"nombre":"Conocer y saber implementar las estructuras basicas de control","cursos":"3"},
+                    {"id":6,"checked":false,"nombre":"Conocer y saber implementar las estructuras de los bucles","cursos":"3"}
+            ]
+            },
+            {
+                "id":2,
+                "nombre":"Prácticas de desarrollo Elementales",
+                "capacidades": [  
+                    {"id":1,"checked":true,"nombre":"Concer las reglas basicas de nombramientos de variables","cursos":"5"},
+                    {"id":2,"checked":true,"nombre":"Capacidad de clonar un repositorio(git clone,git pull)","cursos":"5"},
+                    {"id":3,"checked":true,"nombre":"Capacidad de subir los cambios al repositorio(git commit, git pull,git push)","cursos":"5"}
+                    
+            ]
+            },
+            {
+                "id":3,
+                "nombre":"Java Básico",
+                "capacidades": [ 
+                    {"id":1,"checked":true,"nombre":"Entender claramente los conceptos mas avazandos OPP (Polimorfismo, herencia, encaposulamiento y abtración)","cursos":"3"},
+                    {"id":2,"checked":true,"nombre":"Conocer y saber implementar el Patrón de diseño MVC","cursos":"3"},
+                    {"id":3,"checked":true,"nombre":"Saber las Estructuras de datos simples (arreglos y Listas)","cursos":"3"},
+                    {"id":4,"checked":true,"nombre":"Conoce el entorno de desarrollo en Java (jdk, jre)","cursos":"3"},
+                    {"id":5,"checked":true,"nombre":"sentencias de control en ciclos (continue, break)","cursos":"3"},
+                    {"id":6,"checked":true,"nombre":"operaciones con bigdecimal","cursos":"3"},
+                    {"id":7,"checked":true,"nombre":"operaciones matematicas","cursos":"3"},
+                    {"id":8,"checked":true,"nombre":"Conocer y saber implementar las clases wrapper","cursos":"3"}
+                ]
+            },
+            {
+                "id":4,
+                "nombre":"Git y Repositorios",
+                "capacidades": [  
+                    {"id":1,"checked":false,"nombre":"git crear y cambiar de ramas","cursos":"5"}                    
+            ]
+            },
+            
+            {
+                "id":5,
+                "nombre":"Java Alto",
+                "capacidades":[
+                    {"id":1,"checked":true,"nombre":"Saber implementar las coleciones(mapas, listas, sets)","cursos":"3"},
+                    {"id":2,"checked":true,"nombre":"saber Manejar de paquetes en el proyecto","cursos":"3"},
+                    {"id":3,"checked":true,"nombre":"Saber realizar operaciones con strings","cursos":"3"},
+                    {"id":4,"checked":true,"nombre":"Conocer y saber implementar expresiones regulares (basicas)","cursos":"3"}
+                ]
+            },
+            {
+                "id":6,
+                "nombre":"Clean Code",
+                "capacidades":[
+                    {"id":1,"checked":true,"nombre":"Saber desarrollar aplicando Clean Code","cursos":"3"}
+                ]
+            },
+            
+            { "id":7,
+                "nombre":"Java Superior",
+                "capacidades":[
+                    {"id":1,"checked":true,"nombre":"Manejo de exepciones verificables con try catch básico","cursos":"3"},
+                    {"id":2,"checked":true,"nombre":"Manejo de archivo (lectura y escritura)","cursos":"3"},
+                    {"id":3,"checked":true,"nombre":"saber utilizar el operador ternario","cursos":"3"},
+                    {"id":4,"checked":true,"nombre":"Saber realizar operaciones con fechas","cursos":"3"}
+                ]
+            },
+            {
+                "id":8,
+                "nombre":"Git y Repositorios",
+                "capacidades": [  
+                    {"id":1,"checked":false,"nombre":"saber utilizar el git diff","cursos":"5"}
+            ]
+            }
+        ]
+    },
+    {
+        "id":2,
+        "nombre":"junior spring",
+        "active":false,
+        "nivel":"Junior",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Spring Bajo",
+                "capacidades": [  
+                    {"id":1,"checked":true,"nombre":"Saber crear el proyecto en spring boot","cursos":"4"},
+                    {"id":2,"checked":false,"nombre":"Spring Boot Starters","cursos":"4"}
+            ]
+            },
+            
+            {
+                "id":2,
+                "nombre":"Spring Básico",
+                "capacidades": [ 
+                    {"id":1,"checked":true,"nombre":"Saber gestionar las dependencias que necesitas","cursos":"4"},
+                    {"id":2,"checked":true,"nombre":"Fundamentos patrón MVC (controladores, vistas)","cursos":"4"},
+                    {"id":3,"checked":true,"nombre":"Tener claro que va en un controlador, en el servicio y en el repository","cursos":"4"},
+                    {"id":4,"checked":true,"nombre":"Tener claro que va en un que domime ","cursos":"4"},
+                    {"id":5,"checked":true,"nombre":"Las anotaciones @service, @controller, @repository","cursos":"4"}
+                ]
+            },
+            {
+                "id":3,
+                "nombre":"Spring Alto",
+                "capacidades":[
+                    {"id":1,"checked":true,"nombre":"saber generar el arifatory final utilizando gradle o maven","cursos":"4"}
+                ]
+            },
+            
+            { "id":4,
+                "nombre":"Spring Superior",
+                "capacidades":[
+                    {"id":1,"checked":true,"nombre":"configuración de Spring (.yml o .properties) para accesos a base de datos","cursos":"4"},
+                    {"id":2,"checked":true,"nombre":"Context path, scopes y autowiring","cursos":"4"},
+                    {"id":3,"checked":true,"nombre":"@configuration,@controller y @restcontroller","cursos":"4"},
+                    {"id":4,"checked":true,"nombre":"(JDBC, JPA, HIBERNATE) que sepa mapear una tabla","cursos":"4"}
+
+                    
+
+
+
+                ]
+            }
+        ]
+    },
+        {
+            "id":3,
+            "nombre":"middle Java",
+            "active":false,
+            "nivel":"Middle",
+            "niveles":[
+                {
+                    "id":7,
+                    "nombre":"Java Bajo",
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Saber realizar pruebas unitarias Junit","cursos":"4"},
+                        {"id":2,"checked":true,"nombre":"Conocer y saber implementar el patrón AAA","cursos":"4"},
+                        {"id":3,"checked":true,"nombre":"saber crear una API con las operaciones CRUD","cursos":"4"},
+                        {"id":4,"checked":true,"nombre":"saber cosumir una API propia","cursos":"4"},
+                        {"id":5,"checked":true,"nombre":"saber crear excepciones personalizadas","cursos":"4"},
+                        {"id":6,"checked":true,"nombre":"dominar por completo las coleciones","cursos":"4"},
+                        {"id":7,"checked":true,"nombre":"dominar los iterables","cursos":"4"},
+                        {"id":8,"checked":true,"nombre":"Saber implementar los enums","cursos":"4"}
+                    ]
+                },{
+                    "id":8,
+                    "nombre":"Git y Repositorios",
+                    "capacidades": [  
+                        {"id":1,"checked":false,"nombre":"git merge, git flow","cursos":"5"}                 
+                ]
+                },
+                {
+                    "id":9,
+                    "nombre":"Java Básico",
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Consumir una API externa","cursos":"3"},
+                        {"id":2,"checked":true,"nombre":"Operaciones basicas con Streams","cursos":"3"},
+                        {"id":3,"checked":true,"nombre":"Saber implementar Generics","cursos":"3"},
+                        {"id":4,"checked":true,"nombre":"saber implemetar expresiones lambda","cursos":"3"},
+                        {"id":5,"checked":true,"nombre":"Saber conetarse a base de datos con JDBC","cursos":"3"},
+                        {"id":6,"checked":true,"nombre":"conocer y saber implementar los optionals","cursos":"3"}
+                    ] 
+                },
+                {
+                    "id":10,
+                    "nombre":"DevOps",
+                    "capacidades": [  
+                        {"id":1,"checked":false,"nombre":"comandos básicos de sistemas operativos,Crear imagenes Doker,git revert, saber resolver conflictos","cursos":"6"}                 
+                ]
+                },
+                {
+                    "id":11,
+                    "nombre":"Java Alto",
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Saber operaciones avanzadas con Generics y Streams","cursos":"3"},
+                        {"id":2,"checked":true,"nombre":"Saber de programación funcional","cursos":"3"},
+                        {"id":3,"checked":true,"nombre":"conocer que son patrones creacional","cursos":"3"}
+                    ] 
+                },{
+                    "id":12,
+                    "nombre":"DevOps",
+                    "capacidades": [  
+                         {"id":1,"checked":false,"nombre":"comandos avazados de sistemas operativos,revisar un pull request","cursos":"6"}
+                ]
+                },
+                {
+                    "id":13,
+                    "nombre":"Java Superior",
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Saber de Interfaces funcionales","cursos":"3"},
+                        {"id":2,"checked":true,"nombre":"Saber de Manejo básico de hilos","cursos":"3"},
+                        {"id":3,"checked":true,"nombre":"saber de Reflection","cursos":"3"}
+                    ] 
+                },
+                {
+                    "id":14,
+                    "nombre":"DevOps",
+                    "capacidades": [  
+                         {"id":1,"checked":false,"nombre":"CI,CD, kubernetes","cursos":"6"}
+                ]
+                }
+            ]
+        },
+        {
+            "id":4,
+            "nombre":"middle spring",
+            "active":false,
+            "nivel":"Middle",
+            "niveles":[
+                {
+                    "id":7,
+                    "nombre":"Spring Bajo",
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Saber realizar pruebas unitarias Junit","cursos":"4"},
+                        {"id":2,"checked":true,"nombre":"Conocer y saber implementar el patrón AAA","cursos":"4"},
+                        {"id":3,"checked":true,"nombre":"saber crear una API con las operaciones CRUD","cursos":"4"},
+                        {"id":4,"checked":true,"nombre":"saber cosumir una API propia","cursos":"4"},
+                        {"id":5,"checked":true,"nombre":"saber crear excepciones personalizadas","cursos":"4"},
+                        {"id":6,"checked":true,"nombre":"dominar por completo las coleciones","cursos":"4"},
+                        {"id":7,"checked":true,"nombre":"dominar los iterables","cursos":"4"},
+                        {"id":8,"checked":true,"nombre":"Saber implementar los enums","cursos":"4"}
+                    ]
+                },
+                {
+                    "id":8,
+                    "nombre":"Spring Básico",
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Consumir una API externa","cursos":"4"},
+                        {"id":2,"checked":true,"nombre":"Operaciones basicas con Streams","cursos":"4"},
+                        {"id":3,"checked":true,"nombre":"Saber implementar Generics","cursos":"4"},
+                        {"id":4,"checked":true,"nombre":"saber implemetar expresiones lambda","cursos":"4"},
+                        {"id":5,"checked":true,"nombre":"Saber conetarse a base de datos con JDBC","cursos":"4"},
+                        {"id":6,"checked":true,"nombre":"conocer y saber implementar los optionals","cursos":"4"}
+                    ] 
+                },
+                {
+                    "id":9,
+                    "nombre":"Seguridad",
+                    "capacidades": [ 
+                        {"id":1,"checked":true,"nombre":"saber que es inyección de SQL y XSS","cursos":"2"}
+                    ]
+                },
+                {
+                    "id":10,
+                    "nombre":"Spring Alto",
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Saber operaciones avanzadas con Generics y Streams","cursos":"4"},
+                        {"id":2,"checked":true,"nombre":"Saber de programación funcional","cursos":"4"},
+                        {"id":3,"checked":true,"nombre":"conocer que son patrones creacional","cursos":"4"}
+                    ] 
+                },
+                {
+                    "id":11,
+                    "nombre":"Spring Superior",
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Saber de Interfaces funcionales","cursos":"4"},
+                        {"id":2,"checked":true,"nombre":"Saber de Manejo básico de hilos","cursos":"4"},
+                        {"id":3,"checked":true,"nombre":"saber de Reflection","cursos":"4"}
+                    ] 
+                }
+            ]
+        },
+        {
+            "id":5,
+            "nombre":"senior Java",
+            "active":false,
+            "nivel":"Senior",
+            "niveles":[
+                {
+                    "id":12,
+                    "nombre":"Java Bajo", 
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"manejo avanzado de hilos","cursos":"3"},
+                        {"id":2,"checked":true,"nombre":"manejo Patrones de diseño","cursos":"3"},
+                        {"id":3,"checked":true,"nombre":"saber de composicion de funciones","cursos":"3"},
+                        {"id":4,"checked":true,"nombre":"Manejo de Streams en paralelo","cursos":"3"}
+                    ]
+                },
+                {
+                    "id":13,
+                    "nombre":"DevOps",
+                    "capacidades": [  
+                         {"id":1,"checked":false,"nombre":"crear pipelines por interface, crear un repositorio","cursos":"6"}
+                ]
+                },
+                {
+                    "id":14,
+                    "nombre":"Java Básico", 
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Conocer y saber implementar estructuras de datos Pilas y colas","cursos":"3"},
+                        {"id":2,"checked":true,"nombre":"Conocer y saber implementar Algoritmos de busqueda en estructuras de datos","cursos":"3"}
+                    ]
+                },
+                {
+                    "id":15,
+                    "nombre":"DevOps",
+                    "capacidades": [  
+                         {"id":1,"checked":false,"nombre":"Pipelines como código","cursos":"6"}
+                ]
+                },
+                {
+                    "id":16,
+                    "nombre":"Java Alto", 
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Conocer y saber implementar algoritmos de ordenamientos","cursos":"3"},
+                        {"id":2,"checked":true,"nombre":"Conocer y saber implementar algoritmos de estructura","cursos":"3"},
+                        {"id":3,"checked":true,"nombre":"Saber implementar Grafos","cursos":"3"},
+                        {"id":4,"checked":true,"nombre":"Saber implementar Grafos arboles","cursos":"3"}
+                    ]
+                },
+                {
+                    "id":17,
+                    "nombre":"DevOps",
+                    "capacidades": [  
+                         {"id":1,"checked":false,"nombre":"Saber resolver errores en los despliegues en ambientes","cursos":"6"}
+                ]
+                },
+                {
+                    "id":18,
+                    "nombre":"Java Superior", 
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Saber Rendimiento","cursos":"3"},
+                        {"id":2,"checked":true,"nombre":"saber de en el desarrollo de aplicaciones seguridad","cursos":"3"},
+                        {"id":3,"checked":true,"nombre":"saber de depuración de código","cursos":"3"},
+                        {"id":4,"checked":true,"nombre":"Implementacion de los distintos patrones de arquitectura","cursos":"3"}
+                    ]
+                },
+                {
+                    "id":19,
+                    "nombre":"DevOps",
+                    "capacidades": [  
+                         {"id":1,"checked":false,"nombre":"hygieia DevOps","cursos":"6"}
+                ]
+                }
+            ]
+        },
+        {
+            "id":6,
+            "nombre":"senior spring",
+            "active":false,
+            "nivel":"Senior",
+            "niveles":[
+                {
+                    "id":11,
+                    "nombre":"Spring Bajo", 
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"manejo avanzado de hilos","cursos":"4"},
+                        {"id":2,"checked":true,"nombre":"manejo Patrones de diseño","cursos":"4"},
+                        {"id":3,"checked":true,"nombre":"saber de composicion de funciones","cursos":"4"},
+                        {"id":4,"checked":true,"nombre":"Manejo de Streams en paralelo","cursos":"4"}
+                    ]
+                },
+                {
+                    "id":12,
+                    "nombre":"Spring Básico", 
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Conocer y saber implementar estructuras de datos Pilas y colas","cursos":"4"},
+                        {"id":2,"checked":true,"nombre":"Conocer y saber implementar Algoritmos de busqueda en estructuras de datos","cursos":"4"}
+                    ]
+                },
+                {
+                    "id":13,
+                    "nombre":"Spring Alto", 
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Conocer y saber implementar algoritmos de ordenamientos","cursos":"4"},
+                        {"id":2,"checked":true,"nombre":"Conocer y saber implementar algoritmos de estructura","cursos":"4"},
+                        {"id":3,"checked":true,"nombre":"Saber implementar Grafos","cursos":"4"},
+                        {"id":4,"checked":true,"nombre":"Saber implementar Grafos arboles","cursos":"4"}
+                    ]
+                },
+                {
+                    "id":14,
+                    "nombre":"Spring Superior", 
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Saber Rendimiento","cursos":"4"},
+                        {"id":2,"checked":true,"nombre":"saber de en el desarrollo de aplicaciones seguridad","cursos":"4"},
+                        {"id":3,"checked":true,"nombre":"saber de depuración de código","cursos":"4"},
+                        {"id":4,"checked":true,"nombre":"Implementacion de los distintos patrones de arquitectura","cursos":"4"}
+                    ]
+                }
+            ]
+        }
+    ]

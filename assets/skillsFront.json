@@ -1,0 +1,329 @@
+[
+    {
+        "id":1,
+        "nombre":"HTML y CSS",
+        "active":true,
+        "nivel":"Junior",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Bajo",
+                "capacidades": [  
+                {"id":1,"checked":true,"nombre":"Conocer la etiqueta LABEL y saber implementarlas","cursos":"1"},
+                {"id":2,"checked":false,"nombre":"Conocer la etiqueta INPUT(text, number, checkbox) saber implementarlas","cursos":"1"},
+                {"id":3,"checked":false,"nombre":"Conocer la etiqueta DIV saber implementarlas","cursos":"1"},
+                {"id":4,"checked":false,"nombre":"Conocer la etiqueta P y saber implementarlas","cursos":"1"},
+                {"id":5,"checked":false,"nombre":"Conocer CSS Basica (color, background,font, marging, padding)","cursos":"1"}
+            ]
+            },
+            {
+                "id":2,
+                "nombre":"Básico",
+                "capacidades": [ 
+                    {"id":1,"checked":false,"nombre":"Tener la capacidad de hacer formularios básicos y realizar maquetación básica","cursos":"1"}
+                ]
+            },
+            {
+                "id":3,
+                "nombre":"Alto",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Saber de maquetación avanzada (combinando CSS, float, positions)","cursos":"1"}
+                ]
+            },
+            { "id":4,
+                "nombre":"Superior",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de crear una pagina completa con CSS, HTML y Js","cursos":"1"}
+                ]
+            }
+        ]
+    },
+    {
+        "id":2,
+        "nombre":"JavaScript y Typecript",
+        "active":false,
+        "nivel":"Junior",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Bajo",
+                "capacidades": [
+                {"id":1,"checked":true,"nombre":"Saber implementar los tipos de variables(var, const, let)","cursos":"1"},
+                {"id":2,"checked":true,"nombre":"blucles básicos","cursos":"1"},
+                {"id":3,"checked":true,"nombre":"tipos de datos","cursos":"1"},
+                {"id":4,"checked":true,"nombre":"sentencias de control (if, else, switch)","cursos":"1"},
+                {"id":5,"checked":true,"nombre":"operaciones matemáticas","cursos":"1"},
+                {"id":6,"checked":true,"nombre":"funciones básicas","cursos":"1"}
+            ]
+            },
+            {
+                "id":2,
+                "nombre":"Básico",
+                "capacidades": [
+                    {"id":1,"checked":false,"nombre":"Saber las reglas de nombramientos de variables","cursos":"1"},
+                    {"id":2,"checked":false,"nombre":"Conocer y saber utilizar los tipos de datos primarios","cursos":"1"},
+                    {"id":3,"checked":false,"nombre":"Saber que es un objeto y como implementarlos","cursos":"1"},
+                    {"id":4,"checked":false,"nombre":"Saber trabajar con arreglos","cursos":"1"},
+                    {"id":5,"checked":false,"nombre":"Saber que es el Operador ternario y como utilizarlo","cursos":"1"},
+                    {"id":6,"checked":false,"nombre":"Saber como crear una Función de flecha y como utlizarla","cursos":"1"}
+                ]
+            },
+            {
+                "id":3,
+                "nombre":"Alto",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":" Saber trabajar con JSon","cursos":"1"},
+                    {"id":2,"checked":false,"nombre":"TypeOf Operator ","cursos":"1"},
+                    {"id":3,"checked":false,"nombre":"saber como implementar Bucles avanzados","cursos":"1"},
+                    {"id":4,"checked":false,"nombre":"Rest Parameters","cursos":"1"},
+                    {"id":5,"checked":false,"nombre":"This Keyword lo básico","cursos":"1"},
+                    {"id":6,"checked":false,"nombre":"Saber de manejo del DOM Básico","cursos":"1"}
+                ]
+            },
+            { "id":4,
+                "nombre":"Superior",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Saber diferenciar entre Global Scope,Function Scope y Block Scope","cursos":"1"},
+                    {"id":1,"checked":false,"nombre":"Built-in objects(Number,Math,Date,String,Error,Function,Boolean)","cursos":"1"},
+                    {"id":1,"checked":false,"nombre":"Manejo de coleciones básica","cursos":"1"},
+                    {"id":1,"checked":false,"nombre":"Equality Comparisons","cursos":"1"},
+                    {"id":1,"checked":false,"nombre":"This Keyword lo avanzado","cursos":"1"},
+                    {"id":1,"checked":false,"nombre":"Manejo del DOM avanzado","cursos":"1"}
+                ]
+            }
+        ]
+    },
+    {
+        "id":3,
+        "nombre":"junior angular",
+        "active":false,
+        "nivel":"Junior",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Bajo",
+                "capacidades": [  
+                {"id":1,"checked":true,"nombre":"Capacidad para poder crear un componente Front (Angular), el componente debe de tener HTML, CSS y la logica en Typescript","cursos":"2"},
+                {"id":2,"checked":false,"nombre":"Capacidad de crear un formulario sencillo utilizando ngModel","cursos":"2"},
+                {"id":3,"checked":false,"nombre":"saber implementar @input,@output","cursos":"2"},
+                {"id":4,"checked":false,"nombre":"saber implementar los Pipes de angular(date, Currecy, Decimal)","cursos":"2"},
+                {"id":5,"checked":false,"nombre":"comoce y utiliza los comandos básicos de Angular CLI","cursos":"2"}]
+            },
+            {
+                "id":2,
+                "nombre":"Básico",
+                "capacidades": [ 
+                    {"id":1,"checked":false,"nombre":"Capacidad de utilizar ngIfngFor en la creación de un componente","cursos":"2"},
+                    {"id":1,"checked":false,"nombre":"Saber realizar interpolación de texto","cursos":"2"},
+                    {"id":1,"checked":false,"nombre":"Conocer los ciclos de vida de angular y saberlos implementar","cursos":"2"}]
+            },
+            {
+                "id":3,
+                "nombre":"Alto",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de crear Pipes personalizados","cursos":"2"},
+                    {"id":1,"checked":false,"nombre":"Saber crear, implementar y trabajar con observers","cursos":"2"},
+                    {"id":1,"checked":false,"nombre":"saber implementar ngTemplate, NgSwitch, ngModule","cursos":"2"},
+                    {"id":1,"checked":false,"nombre":"Saber implementar Router Module","cursos":"2"},
+                    {"id":1,"checked":false,"nombre":"Saber implementar Formularios Reactivos","cursos":"2"},
+                    {"id":1,"checked":false,"nombre":"Saber implementar todos los ciclos de vida","cursos":"2"}
+                ]
+            },
+            { "id":4,
+                "nombre":"Superior",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de utilizar @viewchild","cursos":"2"},
+                    {"id":1,"checked":false,"nombre":"Saber injectar depencias de servicios","cursos":"2"},
+                    {"id":1,"checked":false,"nombre":"Saber consumir API´s","cursos":"2"},
+                    {"id":1,"checked":false,"nombre":"Saber implementar la detección de cambios","cursos":"2"},
+                    {"id":1,"checked":false,"nombre":"Saber utilizar RouterLink","cursos":"2"}
+                ]
+            }
+        ]
+    },
+    {
+        "id":4,
+        "nombre":"HTML y CSS",
+        "active":false,
+        "nivel":"Middle",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Bajo",
+                "capacidades": [  
+                {"id":1,"checked":true,"nombre":"Capacidad para poder crear un componente Front (Angular), el componente debe de tener HTML, CSS y la logica en Typescript","cursos":"1"}
+            ]
+            },
+            {
+                "id":2,
+                "nombre":"Básico",
+                "capacidades": [ 
+                    {"id":1,"checked":false,"nombre":"Capacidad de utilizar ngIfngFor en la creación de un componente","cursos":"2"}
+                ]
+            },
+            {
+                "id":3,
+                "nombre":"Alto",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de crear Pipes personalizados","cursos":"2"}
+                ]
+            },
+            { "id":4,
+                "nombre":"Superior",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de utilizar @viewchild","cursos":"2"}
+                ]
+            }
+        ]
+    },
+    {
+        "id":5,
+        "nombre":"JavaScript y Typecript",
+        "active":false,
+        "nivel":"Middle",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Bajo",
+                "capacidades": [  
+                {"id":1,"checked":true,"nombre":"Capacidad para poder crear un componente Front (Angular), el componente debe de tener HTML, CSS y la logica en Typescript","cursos":"2"}
+            ]
+            },
+            {
+                "id":2,
+                "nombre":"Básico",
+                "capacidades": [ 
+                    {"id":1,"checked":false,"nombre":"Capacidad de utilizar ngIfngFor en la creación de un componente","cursos":"2"}
+                ]
+            },
+            {
+                "id":3,
+                "nombre":"Alto",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de crear Pipes personalizados","cursos":"2"}
+                ]
+            },
+            { "id":4,
+                "nombre":"Superior",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de utilizar @viewchild","cursos":"2"}
+                ]
+            }
+        ]
+    },
+    {
+            "id":6,
+            "nombre":"middle angular",
+            "active":false,
+            "nivel":"Middle",
+            "niveles":[
+                {
+                    "id":5,
+                    "nombre":"Bajo",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Debe tener claro los conceptos de programación reactiva, su funcionamiento y saber implentarlo, en un desarrollo utilizando RxJs","cursos":"2"},
+                        {"id":2,"checked":false,"nombre":"Saber implementar restricción de acceso rutas utlizando Guards","cursos":"2"},
+                        {"id":3,"checked":false,"nombre":"Saber implementar aplicaciones con buen performace aplicando lazy Loading","cursos":"2"},
+                        {"id":4,"checked":false,"nombre":"buena manejo del DOM utiliznado directivas","cursos":"2"}
+                    ]
+                },
+                {
+                    "id":6,
+                    "nombre":"Básico",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Capacidad para realizar pruebas unitarias de codigo propio o de otros utilizando Jasmine/karma","cursos":"2"}
+                    ] 
+                },
+                {
+                    "id":7,
+                    "nombre":"Alto",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Conocer los interceptores y saberlos implementar","cursos":"2"},
+                    {"id":2,"checked":false,"nombre":"Conocer que son los proxys y saberlos implementar","cursos":"2"} 
+                    ] 
+                },
+                {
+                    "id":8,
+                    "nombre":"Superior",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Conocer RxJS Subjects y saberlo implementar","cursos":"2"}
+                    ] 
+                }
+            ]
+        },
+        {
+            "id":7,
+            "nombre":"JavaScript y Typecript",
+            "active":false,
+            "nivel":"Senior",
+            "niveles":[
+                {
+                    "id":1,
+                    "nombre":"Bajo",
+                    "capacidades": [  
+                    {"id":1,"checked":true,"nombre":"Capacidad para poder crear un componente Front (Angular), el componente debe de tener HTML, CSS y la logica en Typescript","cursos":"2"}
+                ]
+                },
+                {
+                    "id":2,
+                    "nombre":"Básico",
+                    "capacidades": [ 
+                        {"id":1,"checked":false,"nombre":"Capacidad de utilizar ngIfngFor en la creación de un componente","cursos":"2"}
+                    ]
+                },
+                {
+                    "id":3,
+                    "nombre":"Alto",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Capacidad de crear Pipes personalizados","cursos":"2"}
+                    ]
+                },
+                { "id":4,
+                    "nombre":"Superior",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Capacidad de utilizar @viewchild","cursos":"2"}
+                    ]
+                }
+            ]
+        },
+        {
+            "id":8,
+            "nombre":"senior angular",
+            "active":false,
+            "nivel":"Senior",
+            "niveles":[
+                {
+                    "id":9,
+                    "nombre":"Bajo", 
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Debe tener buenas prácticas de organización de módulos, performance y creación de servicios","cursos":"2"},
+                        {"id":2,"checked":false,"nombre":"Saber implementar una arquitectura limpia en angular","cursos":"2"},
+                        {"id":3,"checked":false,"nombre":"Conocer las librerías, clonning en Angular","cursos":"2"}
+                    ]
+                },
+                {
+                    "id":10,
+                    "nombre":"Básico", 
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Conocer  NgRx y saberlo implementar","cursos":"2"}
+                    ]
+                },
+                {
+                    "id":11,
+                    "nombre":"Alto", 
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Saber de Performance","cursos":"2"},
+                        {"id":1,"checked":false,"nombre":"optimización de codigo","cursos":"2"},
+                        {"id":1,"checked":false,"nombre":"saber generar archivos de compilación","cursos":"2"}
+                    ]
+                },
+                {
+                    "id":12,
+                    "nombre":"Superior", 
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Saber de Server-side rendering","cursos":"2"}
+                    ]
+                }
+            ]
+        }
+    ]

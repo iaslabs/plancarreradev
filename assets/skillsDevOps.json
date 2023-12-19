@@ -1,0 +1,113 @@
+[
+    {
+        "id":1,
+        "nombre":"junior",
+        "active":true,
+        "nivel":"Junior",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Bajo",
+                "capacidades": [  
+                    {"id":1,"checked":true,"nombre":"Capacidad de clonar un repositorio"},
+                    {"id":2,"checked":false,"nombre":"Capacidad de subir los cambios al repositorio"}
+            ]
+            },
+            {
+                "id":2,
+                "nombre":"Básico",
+                "capacidades": [ 
+                    {"id":1,"checked":false,"nombre":"git crear y cambiar de ramas"}
+                ]
+            },
+            {
+                "id":3,
+                "nombre":"Alto",
+                "capacidades":[
+
+                ]
+            },
+            { "id":4,
+                "nombre":"Superior",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"saber utilizar el git diff"}
+                ]
+            }
+        ]
+    },
+        {
+            "id":2,
+            "nombre":"middle",
+            "active":false,
+            "nivel":"Middle",
+            "niveles":[
+                {
+                    "id":5,
+                    "nombre":"Bajo",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"git merge, git flow"}
+                        
+                    ]
+                },
+                {
+                    "id":6,
+                    "nombre":"Básico",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"comandos básicos de sistemas operativos,Crear imagenes Doker,git revert, saber resolver conflictos"}
+                    ] 
+                },
+                {
+                    "id":7,
+                    "nombre":"Alto",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"comandos avazados de sistemas operativos,revisar un pull request"}
+                    ] 
+                },
+                {
+                    "id":8,
+                    "nombre":"Superior",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"CI,CD, kubernetes"}
+                    ] 
+                }
+            ]
+        },
+        {
+            "id":3,
+            "nombre":"senior",
+            "active":false,
+            "nivel":"Senior",
+            "niveles":[
+                {
+                    "id":9,
+                    "nombre":"Bajo", 
+                    "capacidades":[
+
+                        {"id":1,"checked":false,"nombre":"crear pipelines por interface, crear un repositorio"}
+                        
+                    ]
+                },
+                {
+                    "id":10,
+                    "nombre":"Básico", 
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Pipelines como codigo"}
+                    ]
+                },
+                {
+                    "id":11,
+                    "nombre":"Alto", 
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Saber resolver errores en los despliegues en ambientes"}
+                    ]
+                },
+                {
+                    "id":12,
+                    "nombre":"Superior", 
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"hygieia devops"}
+                    ]
+                }
+            ]
+        }
+    ]

@@ -1,0 +1,111 @@
+[
+    {
+        "id":1,
+        "nombre":"junior",
+        "active":true,
+        "nivel":"Junior",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Bajo",
+                "capacidades": [  
+                    {"id":1,"checked":true,"nombre":"Capacidad de poder realizar consultas básicas a base de datos","cursos":"8"},
+                    {"id":2,"checked":false,"nombre":"Capacidad de insertar registros y actualizar Registros","cursos":"8"}
+            ]
+            },
+            {
+                "id":2,
+                "nombre":"Básico",
+                "capacidades": [ 
+                    {"id":1,"checked":true,"nombre":"Capacidad de poder realizar consultas básicas con where a base de datos ","cursos":"8"},
+                    {"id":2,"checked":false,"nombre":"Capacidad de insertar registros y actualizar Registros con where","cursos":"8"}
+                ]
+            },
+            {
+                "id":3,
+                "nombre":"Alto",
+                "capacidades":[
+                    {"id":1,"checked":true,"nombre":"Capacidad de poder realizar consultas básicas a más de una tabla al tiempo","cursos":"8"}
+                ]
+            },
+            { "id":4,
+                "nombre":"Superior",
+                "capacidades":[
+                    {"id":1,"checked":true,"nombre":"Capacidad de poder realizar consultas básicas con Join","cursos":"8"}
+                ]
+            }
+        ]
+    },
+        {
+            "id":2,
+            "nombre":"middle",
+            "active":false,
+            "nivel":"Middle",
+            "niveles":[
+                {
+                    "id":5,
+                    "nombre":"Bajo",
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Capacidad de poder realizar consultas avanzadas con Join y where utilizando operadores logicos","cursos":"8"}
+                    ]
+                },
+                {
+                    "id":6,
+                    "nombre":"Básico",
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Capacidad de poder realizar consultas avanzadas con Join y where utilizando operadores logicos","cursos":"8"}
+                    ] 
+                },
+                {
+                    "id":7,
+                    "nombre":"Alto",
+                    "capacidades":[
+{"id":1,"checked":true,"nombre":"Capacidad de poder realizar consultas avanzadas con Join y where utilizando operadores logicos","cursos":"8"}
+                    ] 
+                },
+                {
+                    "id":8,
+                    "nombre":"Superior",
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Capacidad de poder realizar consultas avanzadas con Join y where utilizando operadores logicos","cursos":"8"}
+                    ] 
+                }
+            ]
+        },
+        {
+            "id":3,
+            "nombre":"senior",
+            "active":false,
+            "nivel":"Senior",
+            "niveles":[
+                {
+                    "id":9,
+                    "nombre":"Bajo", 
+                    "capacidades":[
+{"id":1,"checked":true,"nombre":"Capacidad de poder realizar consultas avanzadas con Join y where utilizando operadores logicos","cursos":"8"}
+                    ]
+                },
+                {
+                    "id":10,
+                    "nombre":"Básico", 
+                    "capacidades":[
+                        {"id":1,"checked":true,"nombre":"Capacidad de poder realizar consultas avanzadas con Join y where utilizando operadores logicos","cursos":"8"}
+                    ]
+                },
+                {
+                    "id":11,
+                    "nombre":"Alto", 
+                    "capacidades":[
+{"id":1,"checked":true,"nombre":"Capacidad de poder realizar consultas avanzadas con Join y where utilizando operadores logicos","cursos":"8"}
+                    ]
+                },
+                {
+                    "id":12,
+                    "nombre":"Superior", 
+                    "capacidades":[
+{"id":1,"checked":true,"nombre":"Capacidad de poder realizar consultas avanzadas con Join y where utilizando operadores logicos","cursos":"8"}
+                    ]
+                }
+            ]
+        }
+    ]

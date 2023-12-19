@@ -1,0 +1,88 @@
+[
+    {
+        "id":1,
+        "nombre":"junior",
+        "active":true,
+        "nivel":"Junior",
+        "niveles":[
+            { "id":1,
+                "nombre":"Superior",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"saber para que sirve S3,Ec2, kubernete,entender archivos yaml","cursos":"7"}
+                ]
+            }
+        ]
+    },
+        {
+            "id":2,
+            "nombre":"middle",
+            "active":false,
+            "nivel":"Middle",
+            "niveles":[
+                {
+                    "id":5,
+                    "nombre":"Bajo",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"conectarse a AWS desde Java","cursos":"7"}
+                    ]
+                },
+                {
+                    "id":6,
+                    "nombre":"Básico",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Saber obtener secretos de AWS","cursos":"7"}
+                    ] 
+                },
+                {
+                    "id":7,
+                    "nombre":"Alto",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Enteder para que son S3,EC2, cloudwatch","cursos":"7"}
+                    ] 
+                },
+                {
+                    "id":8,
+                    "nombre":"Superior",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Enteder para que son SQS, lamdas, CloudFrom, CloudFormation","cursos":"7"}
+                    ] 
+                }
+            ]
+        },
+        {
+            "id":3,
+            "nombre":"senior",
+            "active":false,
+            "nivel":"Senior",
+            "niveles":[
+                {
+                    "id":9,
+                    "nombre":"Bajo", 
+                    "capacidades":[
+
+                    ]
+                },
+                {
+                    "id":10,
+                    "nombre":"Básico", 
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Crear elementos en AWS(S3,EC2, lamdas, SQS),Router53, ALB,SNS,","cursos":"7"}
+                    ]
+                },
+                {
+                    "id":11,
+                    "nombre":"Alto", 
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Infraestructura como codigo,EKS,ECR","cursos":"7"}
+                    ]
+                },
+                {
+                    "id":12,
+                    "nombre":"Superior", 
+                    "capacidades":[
+
+                    ]
+                }
+            ]
+        }
+    ]

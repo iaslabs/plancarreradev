@@ -1,0 +1,106 @@
+[
+    {
+        "id":1,
+        "nombre":"junior",
+        "active":true,
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Bajo",
+                "capacidades": [  
+
+            ]
+            },
+            {
+                "id":2,
+                "nombre":"Básico",
+                "capacidades": [ 
+
+                ]
+            },
+            {
+                "id":3,
+                "nombre":"Alto",
+                "capacidades":[
+
+                ]
+            },
+            { "id":4,
+                "nombre":"Superior",
+                "capacidades":[
+
+                ]
+            }
+        ]
+    },
+        {
+            "id":2,
+            "nombre":"middle",
+            "active":false,
+            "niveles":[
+                {
+                    "id":5,
+                    "nombre":"Bajo",
+                    "capacidades":[
+
+                    ]
+                },
+                {
+                    "id":6,
+                    "nombre":"Básico",
+                    "capacidades":[
+                        
+                    ] 
+                },
+                {
+                    "id":7,
+                    "nombre":"Alto",
+                    "capacidades":[
+
+                    ] 
+                },
+                {
+                    "id":8,
+                    "nombre":"Superior",
+                    "capacidades":[
+                        
+                    ] 
+                }
+            ]
+        },
+        {
+            "id":3,
+            "nombre":"senior",
+            "active":false,
+            "niveles":[
+                {
+                    "id":9,
+                    "nombre":"Bajo", 
+                    "capacidades":[
+
+                    ]
+                },
+                {
+                    "id":10,
+                    "nombre":"Básico", 
+                    "capacidades":[
+                        
+                    ]
+                },
+                {
+                    "id":11,
+                    "nombre":"Alto", 
+                    "capacidades":[
+
+                    ]
+                },
+                {
+                    "id":12,
+                    "nombre":"Superior", 
+                    "capacidades":[
+
+                    ]
+                }
+            ]
+        }
+    ]
